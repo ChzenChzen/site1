@@ -1,0 +1,379 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,300,700,900,800,200,100");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800");
+/*Начало clearfix*/
+.clearfix:after {
+    content: "\00A0";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+/*конец clearfix*/
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%
+}
+
+.main {
+    width: 100%;
+    padding-bottom: 346px;
+}
+
+.inner {
+    margin: 0 auto;
+    padding: 0;
+    width: 1170px;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    z-index: 999;
+}
+
+.underheader {
+    width: 100%;
+    position: absolute;
+    height: 750px;
+    background: url("img/underheaderpic.png") no-repeat rgb(40, 40, 40);
+    background-position: top center;
+    background-size: cover;
+}
+
+.logo {
+    padding: 0; /* Поля вокруг текста */
+    margin: 0;
+    float: left; /* Обтекание по правому краю */
+    width: 200px; /* Ширина слоя */
+    height: 100px; /*Высота лого */
+    text-align: center; /*Текст внутри Header по середине*/
+    text-transform: uppercase; /* Заглавные буквы */
+}
+
+.logo p {
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(105, 102, 126, 0.95); /*Цвет "ACTIVE"*/
+    font-weight: 800;
+    margin-top: 29px;
+}
+
+.logo p span {
+    font-size: 3.5rem;
+    color: white; /*Цвет "BOX"*/
+    font-weight: 100;
+}
+
+.menu {
+    float: right; /* Обтекание по правому краю */
+    height: 100px;
+}
+
+.menu ul {
+    margin-top: 43px;
+    padding: 0; /* Поля вокруг текста */
+    text-align: left; /*Текст Menu выравнен по левому краю*/
+    text-transform: uppercase; /* Заглавные буквы */
+    list-style-type: none; /*Убираем маркеры списка*/
+}
+
+.menu ul li {
+    float: left;
+    margin-left: 62px;
+}
+
+.menu a, a:link, a:active, a:visited, a:hover {
+    text-decoration: none; /*Отключаем подчеркивание ссылки*/
+    color: rgba(255, 255, 255, 0.70); /*Цвет ссылок меню*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.content {
+    margin-top: 256px;
+}
+
+.content .cont1 p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 6.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.content .cont2 {
+    text-align: center;
+}
+
+.content .cont2 p {
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 200;
+}
+
+a.button1 {
+    text-decoration: none;
+    margin-top: 73px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 16px 48px;
+    background: rgb(202, 85, 73);
+    border-radius: 3px;
+    text-transform: uppercase; /* Заглавные буквы */
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 200;
+}
+
+.icons {
+    background: rgb(255, 255, 255);
+    float: left;
+    width: 33.33333333%;
+    height: 249px;
+    margin-top: 871px;
+}
+
+.icons2 {
+    background: rgb(255, 255, 255);
+    float: left;
+    width: 33.33333333%;
+    height: 249px;
+    margin-top: 15px;
+
+}
+
+.iconsimg {
+    display: block;
+    margin: 0 auto 35px;
+}
+
+.icons h1, .icons2 h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.icons p, .icons2 p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(108, 114, 121);
+    margin-top: 2rem;
+    padding: 0 40px;
+    line-height: 2rem;
+}
+
+.wideinner {
+    width: 1900px;
+    margin: 0 auto;
+}
+
+.works1 {
+    float: left;
+    height: 350px;
+    margin: 62px 0 0;
+}
+
+.works2 {
+    float: left;
+    height: 350px;
+    margin-left: 0;
+}
+
+.workers {
+    float: left;
+    width: 25%;
+    margin-top: 100px;
+}
+
+.name {
+    margin-top: 18px;
+    color: rgb(45, 48, 51);
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.workpos {
+    margin-top: 8px;
+    color: rgb(232, 69, 69);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about {
+    margin-top: 18px;
+    color: rgb(108, 114, 121);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    width: 265px;
+}
+
+.socialbtnsv2 {
+    float: left;
+    margin-right: 4px;
+}
+
+.socialbtnswrapv2 {
+    margin-top: 24px;
+}
+
+.bottompic {
+    float: left;
+    width: 50%;
+    margin: 98px 0;
+}
+
+.cont3 p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    height: 27px;
+    color: rgb(45, 48, 51);
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 2.1rem;
+}
+
+p.overdownloadtext {
+    margin-top: 9px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: rgb(45, 48, 51);
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+
+}
+
+.btn2 {
+    width: 283px;
+    margin: 30px auto 100px;
+}
+
+a.button2 {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 16px 83px;
+    background: rgb(202, 85, 73);
+    border-radius: 3px;
+    text-transform: uppercase; /* Заглавные буквы */
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 200;
+}
+
+.footer {
+    position: absolute;
+    margin-top: -346px;
+    width: 100%;
+    height: 346px;
+    background-color: rgb(50, 52, 83);
+}
+
+.footerblocks {
+    background: 0;
+    float: left;
+    width: 33.33333333%;
+    height: 252px;
+    margin-top: 14px;
+
+}
+
+.footerblocks h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 53px;
+    color: white;
+}
+
+.footerblocks p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(175, 176, 187);
+    margin-top: 1.4rem;
+    padding: 0 40px;
+    line-height: 2rem;
+}
+
+.footer1 {
+    background: rgb(59, 62, 99);
+    width: 100%;
+    height: 252px;
+}
+
+.socialbtnswrap {
+    margin: 10px auto;
+    width: 150px;
+}
+
+.socialbtns {
+    float: left;
+    padding: 4px;
+}
+
+.copyright {
+    margin-top: 26px;
+}
+
+.copyright p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.copyright span {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    color: grey;
+    line-height: 2rem;
+}
